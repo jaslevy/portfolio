@@ -42,6 +42,7 @@ export default function Home() {
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py2 rounded-md ml-8 "
                 href="https://docs.google.com/document/d/e/2PACX-1vT_4fAXZ_eiycoUYi_XzGJKdOE1W7Jv_jFndVTv1wjaH9EnCAmKLKbY33OwZEd8vHO3r32PBMY5m9Gr/pub"
                 target="_blank"
+                rel="noreferrer"
               >
               Resume
               </a>
@@ -60,15 +61,15 @@ export default function Home() {
           </p>
          </div>
          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-         <a href="https://github.com/jaslevy" target="_blank">
+         <a href="https://github.com/jaslevy" target="_blank" rel="noreferrer">
           <AiFillGithub/>
         </a>
-        <a href="https://www.linkedin.com/in/jasper-levy-956722208/" target="_blank">
+        <a href="https://www.linkedin.com/in/jasper-levy-956722208/" target="_blank" rel="noreferrer">
           <AiFillLinkedin />
         </a>
          </div>
          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-60 mt-20 overflow-hidden md:w-96 md:h-80">
-          <Image src={jasp} layout="fill" objectFit="cover"/>
+          <Image src={jasp} layout="fill" objectFit="cover" alt="Error Loading"/>
          </div>
         </section>
         <section>
@@ -82,7 +83,7 @@ export default function Home() {
                 worked as a Data Lab Research Associate at Princeton - completing a data analysis project regarding broadband inequality by income. 
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
-               Last year, I finished a research project titled <span className="text-teal-500 italic">Analyzing the Pseudo-Accuracy of Spotify’s Music Genre Taxonomy and the Decisions That This Black Box Algorithm Makes</span>. 
+               Last year, I finished a research project titled <span className="text-teal-500 italic">Analyzing the Pseudo-Accuracy of Spotify's Music Genre Taxonomy and the Decisions That This Black Box Algorithm Makes</span>. 
                In this project, I used decision trees, random forests, K-means clustering, and TSNE validation to draw some interesting conclusions regarding music genre taxonomy on Spotify.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
@@ -101,11 +102,11 @@ export default function Home() {
           <div className='lg:flex gap-20 items-center'>
             <div className="text-center shadow-lg p-10 rounded-xl my-1 dark:text-white">
               <div className='flex justify-center'>
-              <Image src={vitalpic} width={150} height={150}/>
+              <Image src={vitalpic} width={150} height={150} alt = "Error Loading"/>
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>VitalMap</h3>
-              <a href="https://vitalmap.onrender.com/" target="_blank">
-              <p className="text-gray-800 py-1 text-blue-700 italic">Link to VitalMap</p>
+              <a href="https://vitalmap.onrender.com/" target="_blank" rel="noreferrer">
+              <p className="py-1 text-blue-700 italic">Link to VitalMap</p>
               </a>
               <br/> 
               <p className="dark:text-white">
@@ -125,17 +126,17 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:text-white">
               <div className='flex justify-center'>
-              <Image src={chartSpot} width={150} height={175}/>
+              <Image src={chartSpot} width={150} height={175} alt = "Error Loading"/>
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Spotify Genre Taxonomy Research</h3>
-              <a href="https://docs.google.com/document/d/e/2PACX-1vQ-h17WFmbc4wEYUZBc_OkWIsWuOTMJQYXP8ZsGU4g2WW1wPOIN_V2Afg4Ml9a7XrIed3VsbxUp2TVu/pub" target="_blank">
-              <p className="text-gray-800 py-1 text-blue-700 italic">Link to Paper</p>
+              <a href="https://docs.google.com/document/d/e/2PACX-1vQ-h17WFmbc4wEYUZBc_OkWIsWuOTMJQYXP8ZsGU4g2WW1wPOIN_V2Afg4Ml9a7XrIed3VsbxUp2TVu/pub" target="_blank" rel="noreferrer">
+              <p className="py-1 text-blue-700 italic">Link to Paper</p>
               </a>
               <br/>
               <p className="dark:text-white">
               Fundamentally, Music genre classification is a difficult task due to the fact that it is highly subjective and ambiguous: 
-              there are no absolutely true, incontestable labels for a song’s genre(s). 
-              In this research, my goal is to determine how Spotify’s algorithm makes music genre classification decisions and examine how Spotify’s 
+              there are no absolutely true, incontestable labels for a song's genre(s). 
+              In this research, my goal is to determine how Spotify's algorithm makes music genre classification decisions and examine how Spotify's 
               algorithm classifies as compared to musicologists.
 
               </p>
@@ -147,7 +148,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <div className='flex justify-center'>
-              <Image src={golang} width={150} height={150}/>
+              <Image src={golang} width={150} height={150} alt = "Error Loading"/>
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>DORM for SQL Queries in Golang</h3>
               <p className="dark:text-white"> An object-relational mapper provides an object-oriented layer between relational 
@@ -157,7 +158,7 @@ export default function Home() {
               <br/>
               <p className='dark:text-white'>
               I built a Dopey Object Relational Mapping with SQL Queries (Golang). I Used Golang Interfaces and the Golang
-               “reflect” package to allow clients to communicate with SQL databases
+               "reflect" package to allow clients to communicate with SQL databases
                 through Go structs while abstracting schema and table architecture
                  (which were determined at runtime using reflection). 
               </p>
@@ -209,10 +210,10 @@ export default function Home() {
                           </ul>
                         </nav>
                       <div className="flex space-x-4 text-4xl gap-5 text-black dark:text-white">
-                        <a href="https://github.com/jaslevy" target="_blank">
+                        <a href="https://github.com/jaslevy" target="_blank" rel="noreferrer">
                             <AiFillGithub/>
                         </a>
-                        <a href="https://www.linkedin.com/in/jasper-levy-956722208/" target="_blank">
+                        <a href="https://www.linkedin.com/in/jasper-levy-956722208/" target="_blank" rel="noreferrer">
                             <AiFillLinkedin />
                         </a>
                     </div>
@@ -251,10 +252,10 @@ export default function Home() {
                             </div>
                             <div>
                               <textarea
-                                rows='4'
                                 placeholder="Message" 
                                 className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2
                                 focus:ring-teal-300 mt-2"
+                                rows= {4}
                                 name="message">
                               </textarea>
                             </div>
