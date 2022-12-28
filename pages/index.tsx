@@ -83,12 +83,12 @@ export default function Home() {
                 worked as a Data Lab Research Associate at Princeton - completing a data analysis project regarding broadband inequality by income. 
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
-               Last year, I finished a research project titled <span className="text-teal-500 italic">Analyzing the Pseudo-Accuracy of Spotify's Music Genre Taxonomy and the Decisions That This Black Box Algorithm Makes</span>. 
+               Last year, I finished a research project titled <span className="text-teal-500 italic">Analyzing the Pseudo-Accuracy of Spotify'&aposs Music Genre Taxonomy and the Decisions That This Black Box Algorithm Makes</span>. 
                In this project, I used decision trees, random forests, K-means clustering, and TSNE validation to draw some interesting conclusions regarding music genre taxonomy on Spotify.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
                This year, I spent a lot of time developing a community driven Progressive Web App with other Princeton students titled  <span className="text-teal-500 italic">VitalMap</span>. Aside from that,
-               I spend a lot of my spare time listening to music and training as a Division-I Varsity Fencer on Princeton's Varsity Fencing Team. 
+               I spend a lot of my spare time listening to music and training as a Division-I Varsity Fencer on Princeton'&aposs Varsity Fencing Team. 
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
                While I continue to take classes and solidify my programming skills, I am in search of employment for the Summer of 2023. Feel to reach out for any questions or interest!
@@ -98,7 +98,7 @@ export default function Home() {
         <section>
           <br/>
           <br/>
-        <h1 className='text-3xl py-1 dark:text-white text-center flex justify-center'> Some things I've done</h1>
+        <h1 className='text-3xl py-1 dark:text-white text-center flex justify-center'> Some things I'&aposve done</h1>
           <div className='lg:flex gap-20 items-center'>
             <div className="text-center shadow-lg p-10 rounded-xl my-1 dark:text-white">
               <div className='flex justify-center'>
@@ -135,8 +135,8 @@ export default function Home() {
               <br/>
               <p className="dark:text-white">
               Fundamentally, Music genre classification is a difficult task due to the fact that it is highly subjective and ambiguous: 
-              there are no absolutely true, incontestable labels for a song's genre(s). 
-              In this research, my goal is to determine how Spotify's algorithm makes music genre classification decisions and examine how Spotify's 
+              there are no absolutely true, incontestable labels for a song'&aposs genre(s). 
+              In this research, my goal is to determine how Spotify'&aposs algorithm makes music genre classification decisions and examine how Spotify'&aposs 
               algorithm classifies as compared to musicologists.
 
               </p>
@@ -158,7 +158,7 @@ export default function Home() {
               <br/>
               <p className='dark:text-white'>
               I built a Dopey Object Relational Mapping with SQL Queries (Golang). I Used Golang Interfaces and the Golang
-               "reflect" package to allow clients to communicate with SQL databases
+               "&aposreflect"&apos package to allow clients to communicate with SQL databases
                 through Go structs while abstracting schema and table architecture
                  (which were determined at runtime using reflection). 
               </p>
@@ -196,7 +196,7 @@ export default function Home() {
                 <div className="flex flex-col space-y-8 justify-between">
                       <h1 className="font-bold text-4xl tracking-wide dark:text-white">Contact Me</h1>
                       <p className="pt-2 text-md dark:text-white"> If you have any questions for me, or would just like to reach out for any other 
-                        reason, don't hesitate! Also, feel free to message me on Linkedin for anything work related!
+                        reason, don'&apost hesitate! Also, feel free to message me on Linkedin for anything work related!
                       </p>
                         <nav className="mb-12 flex justify-between">
                           <ul className ="flex items-center">
