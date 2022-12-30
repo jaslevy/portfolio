@@ -26,14 +26,14 @@ export default function Home() {
          <nav className="py-10 mb-12 flex justify-between">
          <ul className ="flex items-center gap-x-5">
             <li>
-            <h1 className='text-xl dark:text-white'>jglevy@princeton.edu</h1>
+            <h1 id="emaildiv" className='text-xl dark:text-white'>jglevy@princeton.edu</h1>
             </li>
             <li>
             <BsFillTerminalFill className="text-2xl dark:text-white"/>
             </li>
 
           </ul>
-          <ul className ="flex items-center">
+          <ul id ="impdiv" className ="flex items-center">
             <li>
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white"/>
             </li>
