@@ -4,8 +4,6 @@ import {AiFillLinkedin, AiFillGithub, AiOutlineMail} from 'react-icons/ai';
 import Image from "next/image";
 import jasp from '../public/JasperSelf.png';
 import chartSpot from '../public/ChartSpot.png';
-import code from '../public/code.png';
-import consulting from '../public/consulting.png';
 import vitalpic from '../public/VM.png';
 import golang from '../public/golang.png';
 import { useState } from 'react';
