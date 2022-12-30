@@ -78,8 +78,8 @@ export default function Home() {
           <div className="text-center p-10">
             <h3 className='text-3xl py-1 dark:text-white'>More About Me</h3>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
-                I am passionate about ML/AI, web development, visualization, data analysis, deep learning, and more. Previously, I have worked as a SWE 
-                Intern at a military defense contractor, making UI improvements for products that serve the U.S. Military. Also, I have 
+                I am passionate about ML/AI, web development, visualization, data analysis, and deep learning. Previously, I worked as a SWE 
+                intern at a military defense contractor, making UI improvements for products that serve the U.S. Military. Also, I  
                 worked as a Data Lab Research Associate at Princeton - completing a data analysis project regarding broadband inequality by income. 
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
@@ -87,11 +87,11 @@ export default function Home() {
                In this project, I used decision trees, random forests, K-means clustering, and TSNE validation to draw some interesting conclusions regarding music genre taxonomy on Spotify.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
-               This year, I spent a lot of time developing a community driven Progressive Web App with other Princeton students titled  <span className="text-teal-500 italic">VitalMap</span>. Aside from that,
+               This year, I developed a community driven Progressive Web App with other Princeton students titled  <span className="text-teal-500 italic">VitalMap</span>. Aside from that,
                I spend a lot of my spare time listening to music and training as a Division-I Varsity Fencer on Princeton&apos;s Varsity Fencing Team. 
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
-               While I continue to take classes and solidify my programming skills, I am in search of employment for the Summer of 2023. Feel to reach out for any questions or interest!
+               While I continue to take classes and solidify my programming skills, I am in search of employment for the Summer of 2023. Feel to reach out with any questions or interest!
               </p>
           </div>
         </section>
@@ -196,7 +196,7 @@ export default function Home() {
                 <div className="flex flex-col space-y-8 justify-between">
                       <h1 className="font-bold text-4xl tracking-wide dark:text-white">Contact Me</h1>
                       <p className="pt-2 text-md dark:text-white"> If you have any questions for me, or would just like to reach out for any other 
-                        reason, don&apos;t hesitate! Also, feel free to message me on Linkedin for anything work related!
+                        reason, don&apos;t hesitate! Also, feel free to message me on Linkedin for anything work related
                       </p>
                         <nav className="mb-12 flex justify-between">
                           <ul className ="flex items-center">
