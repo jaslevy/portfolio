@@ -196,7 +196,7 @@ export default function Home() {
                 <div className="flex flex-col space-y-8 justify-between">
                       <h1 className="font-bold text-4xl tracking-wide dark:text-white">Contact Me</h1>
                       <p className="pt-2 text-md dark:text-white"> If you have any questions for me, or would just like to reach out for any other 
-                        reason, don&apos;t hesitate! Also, feel free to message me on Linkedin for anything work related
+                        reason, don&apos;t hesitate! Also, feel free to message me on Linkedin for anything work related.
                       </p>
                         <nav className="mb-12 flex justify-between">
                           <ul className ="flex items-center">
